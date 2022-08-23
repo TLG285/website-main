@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.top_division
+{
+background-image:url(images/background1.jpg) ;
+width: 100%;
+height: 500px;
+}
+
+.background
+{
+
+   overflow: hidden;
+   position:static;
+   align-items:center;
+   width:100%;
+   height:400px;
+   
+}
+
+.background_a
+{     
+    margin-top: 100px;
+    position:static;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height:200px;
+   
+    
+}
+
+h3#text2
+{
+    position: static;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top:100px ;
+    font-size: 25px;
+    color: white;
+}
+
+.bara_de_navigare
+{
+    position:fixed;
+    align-items: flex-end ;
+    top:0px;
+    width:100%;
+    height:86.5px;
+    background-color: rgb(0, 0, 0)
+    
+}
+.left
+{
+  position: fixed;
+  left: 0px;
+  padding: 10px;
+}
+.right
+{
+  position: fixed;
+  right: 0px;
+  padding: 10px;
+}
+.left .button
+{
+    background-color: #5c5c5c; 
+    border: 1px solid rgb(177, 177, 177);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.left .button:hover
+{
+    background-color: #000000;
+}
+.right .button
+{
+    
+    background-color: #5c5c5c; 
+    border: 1px solid rgb(177, 177, 177);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.right .button:hover
+{
+    background-color: #000000;
+}
+
+.meniu_extins
+{
+    display: none;
+}
+.mid_division
+{
+    
+    position:static;
+    width: 100%;
+    height:400px;
+    background-color: #0e0e16
+}
+#about
+{
+    position: static;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+#about_2
+{
+    position: static;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#paragraf
+{
+    position: static;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 50px;
+}
+
+.bottom_division
+{
+    padding-top: 300px;
+    position:static;
+    width: 100%;
+    height:400px;
+    background-color: #0e0e16;
+    
+}
+#patratel
+{
+    margin-left: 25px;
+    background-color: gray;
+    margin-right:30px;
+    margin-bottom:15px;
+    border-radius:10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.textbox
+{
+    text-decoration-line: none;
+    position: static;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 20px;
+    padding-top: 10px;
+    color: honeydew;
+   
+}
+.textbox:hover
+{
+    background-color: rgb(0, 0, 0);
+    border:1 px solid white;
+    border-radius:10px;
+}
+
+#GFG {
+    text-decoration: none;
+    
+}
+
+#meniu
+{
+    position:fixed;
+    display:flex;
+    top:0px;
+    right:0px;
+    width:150px;
+    height:250px;
+    background-color: black;
+    align-items: center;
+    border-radius:20px;
+    left:-300px;
+    transition: 0.5s;
+}
+#meniu.active
+{
+ left:0;   
+}
+
+#patratel_meniu
+{
+    display:grid;
+    position: static;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:40px;
+    margin-top: 20px;
+    background: rgb(92, 92, 92);
+    color: honeydew;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+#patratel_meniu:hover
+{
+    background: rgb(53, 53, 53);
+    border-radius:10px;
+    border-color: rgb(128, 79, 15) 3px;
+}
+
+@media screen and (min-width: 770px)
+{
+   
+#sliding_text
+{
+    size: 60px;
+}
+.top_division
+{
+    height: 600px;
+    padding-top: 75PX;
+    background-image:url(images/background2.jpg) ;
+
+
+}
+
+h3#text2
+{
+    margin-top: 0px;
+}
+.background
+{
+   height:700px;
+   margin-top: 0px;
+}
+.background_a
+{
+    
+    height:300px;
+    margin-bottom: 200PX;
+}
+
+h1.text
+{
+    
+    font-size: 130px;
+    cursor: crosshair;
+
+}
+
+h3#text2
+{
+    font-size: 50px;
+    cursor: crosshair;
+     
+}
+#sliding_text
+    {   
+        
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom: 10px;
+    }
+
+#about
+{
+font-size: 40px;
+}
+#about_2
+{
+    font-size: 80px;
+}
+#paragraf
+{
+    font-size: 20px;
+}
+#patratel
+    {
+        margin-left: 25%;
+         margin-right: 25%;
+    }
+}
+@media screen and (min-width: 1200px)
+{
+    .top_division
+    {
+        background-image:url(images/background3.jpg) ;
+        height: 1100px;
+        margin-top: 0px;
+    }
+    #sliding_text
+    {
+        padding-left:120px;
+        padding-right:120px;
+        padding-bottom: 120px;
+    }
+    .right .button
+    {
+        display: none;
+    }   
+    h3#text2
+    {
+        margin-top: 0px;
+        color: white;
+    }
+    .background
+    {
+        height: 1000px;
+    }
+    .meniu_extins
+    {
+        display: flex;
+        color: bisque;
+    }
+    
+    .meniu_extins li
+    {
+      
+        display: inline;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-size:16px;
+        font-family: 'Poppins', sans-serif;
+
+        text-align: center;
+        margin-left: 10px;
+        padding:15px 32px;
+        background-color: gray;
+        border: 1px solid rgb(255, 255, 255) ;
+       
+    }
+    .meniu_extins a
+    {
+        padding-top: 16px;
+    }
+    .meniu_extins li:hover
+    {
+        background-color: rgb(0, 0, 0); 
+        cursor: pointer;
+    }
+    #paragraf
+{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+    #patratel
+    {
+        margin-left: 40%;
+         margin-right: 40%;
+    }
+}
+
+/* START pagina Projects*/
+html
+{    
+    margin-top: 86.5px;
+    margin-bottom: 68.5px;
+    background-color: #0e0e16;
+
+}
+
+.tabel
+{   
+    margin-top: 60px;
+    display:grid;
+    grid-template-columns:100% ;
+    margin-left: 10%;
+    margin-right:10%;
+}
+.tabel div
+{
+    padding: 40px;
+    border: 1px solid black;
+    margin:5px;
+    background-color: gray;
+}
+.tabel div:hover
+{
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+
+#title
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.modal
+{
+position:relative;
+width:100%;
+height:1500px;
+background-color: rgb(255, 0, 0) ;
+opacity: 0.5;
+}
+
+.modal .imagine
+{
+  background-color: #000000;  
+}
+
+
+@media screen and (min-width: 550px)
+{
+    .tabel
+    {
+        grid-template-columns:50% 50% ;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px)
+{
+.tabel
+    {
+        grid-template-columns:33% 34% 33% ;
+    }
+
+}
